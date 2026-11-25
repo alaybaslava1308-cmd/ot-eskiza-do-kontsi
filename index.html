@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>От Эскиза До Конца</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #080d1c;
+  color: white;
+}
+header {
+  padding: 25px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #26314b;
+}
+.logo { font-size: 20px; font-weight: bold; }
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  background: radial-gradient(ellipse at top, #253d78, #080d1c 65%);
+}
+h1 {
+  font-size: clamp(38px, 7vw, 70px);
+  margin: 15px 0;
+}
+.hero p {
+  max-width: 650px;
+  color: #c1cbe0;
+  font-size: 19px;
+  line-height: 1.7;
+}
+.button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 18px 35px;
+  border-radius: 14px;
+  background: linear-gradient(90deg,#5b8cff,#a66bff);
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+  box-shadow: 0 8px 35px #526fff55;
+  transition: .2s;
+}
+.button:hover { transform: translateY(-4px); }
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 55px 25px;
+  text-align: center;
+}
+section p {
+  color: #b8c3d9;
+  line-height: 1.8;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #8491aa;
+  border-top: 1px solid #26314b;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">✦ От Эскиза До Конца</div>
+  <div>Android App</div>
+</header>
+
+<div class="hero">
+  <div>🚀 ТВОЁ ПРИЛОЖЕНИЕ УЖЕ ЗДЕСЬ</div>
+  <h1>От Эскиза<br>До Конца</h1>
+  <p>Добро пожаловать! Здесь ты можешь узнать о приложении и скачать его на свой Android-смартфон.</p>
+  <a class="button" href="app-debug.apk" download>⬇ Скачать приложение</a>
+</div>
+
+<section>
+  <h2>О приложении</h2>
+  <p>«От Эскиза До Конца» — приложение, которое всегда под рукой. Установи его на свой телефон и попробуй!</p>
+</section>
+
+<section>
+  <h2>Как установить?</h2>
+  <p>1. Нажми кнопку «Скачать приложение».<br>
+  2. Открой скачанный APK-файл.<br>
+  3. Разреши установку, если Android попросит.<br>
+  4. Запусти приложение!</p>
+</section>
+
+<footer>© 2026 От Эскиза До Конца</footer>
+</body>
+</html>
